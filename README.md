@@ -3,9 +3,10 @@
 This repository explores the application of Decision Trees (tree generation with the entropy metric) and KNN methods to classify the public database iris.
 The division into training and testing is done as follows:the Iris database is divide into approximately three partitions with 1 third of the records: A, B and C.
 Subsequently, the partitions is grouped into training and testing, resulting in 3 experiments:
-First: Training (A+B) and Testing (C)
-Second: Training (A+C) and Testing (B)
-Third: Training (C+B) and Testing (A)
+
+ First: Training (A+B) and Testing (C)
+ Second: Training (A+C) and Testing (B)
+ Third: Training (C+B) and Testing (A)
 
 For this implementation is used Scikit-learn: http://scikit-learn.org/, an python open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection, model evaluation, and many other utilities.
 
