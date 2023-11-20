@@ -7,6 +7,10 @@ Subsequently, the partitions is grouped into training and testing, resulting in 
      First: Training (A+B) and Testing (C)
      Second: Training (A+C) and Testing (B)
      Third: Training (C+B) and Testing (A)
+     
+     1- For each experiment, the metrics (Accuracy, Sensitivity, Specificity, Precision) must be calculated for the Test basis. This must be done for each classification method investigated (KNN and Tree).
+     2- For each experiment, the structure of the decision tree obtained during training must be presented.
+     3- At the end, the average value of the metrics (considering the 3 experiments) for each classification method must be presented.
 
 For this implementation is used Scikit-learn: http://scikit-learn.org/, an python open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection, model evaluation, and many other utilities.
 
